@@ -1,0 +1,93 @@
+*{margin: 0;padding: 0;}
+html{
+    background-color: #F0F0F0;
+}
+.bangding{
+    width: 650px;
+    height: 800px;
+}
+.header{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 80px;
+    margin-top: 30px;
+    text-align: center;
+    border-left: 4px solid #1ABEBF;
+    font-size: 18px;
+    text-shadow: #6A6A6A 0 0 1px;
+    font-weight: 300;
+    color: #6A6A6A;
+}
+.box{
+    width: 570px;
+    height: 500px;
+    border-top: 2px dashed #E1E1E1;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.phone-binding{
+    width: 450px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+.phone-binding>img{
+    margin: 6.5px 10px;
+    float: left;
+}
+.phone-binding>p{
+    float: left;
+    margin-top: 10px;
+    color: #6D6D6D;
+    font-size: 14px;
+}
+.RightNow{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: right;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #FEA700;
+    color: white;
+    font-size: 10px;
+}
+.weixin-binding{
+    width: 450px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+.weixin-binding>img{
+    margin: 14.5px 15px;
+    float: left;
+}
+.weixin-binding>p{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    color: #6D6D6D;
+    font-size: 14px;
+}
+.RightNow{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: right;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #FEA700;
+    color: white;
+    font-size: 10px;
+}

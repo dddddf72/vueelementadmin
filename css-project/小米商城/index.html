@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery-3.2.1.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="top-content">
+            <a href="#">
+                <div class="color"></div>
+            </a>
+            <div class="header">
+                <a href="#"><b>小&nbsp米&nbsp商&nbsp城</b></a>
+                <a href="#">让每个人都能享受科技的乐趣</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-mid">
+            <div class="message">
+                <p class="landing">
+                    <span class="dianji">账号登录</span>
+                    |
+                    <span>扫码登录</span>
+                </p>
+                <script>
+                    $(".landing span").click(function(){
+                        $(this).addClass("dianji").siblings().removeClass('dianji');
+                        $(".landing-choice div").eq($(this).index()).show().siblings().hide();
+                    })
+                </script>
+                <div class="landing-choice">
+                    <div class="zhanghao-landing">
+                        <form>
+                            <p class="phone">
+                                <input type="text" placeholder="邮箱/手机号/小米账号">
+                            </p>
+                            <p class="password">
+                                <input type="password" placeholder="密码">
+                            </p>
+                            <p class="submit">
+                                <input type="submit" value="立即登录">
+                            </p>
+                        </form>
+                        <p class="register">
+                            <span class="zhuce">注册小米账号</span>
+                            <span class="shu-two">|</span>
+                            <span class="wangji">忘记密码&nbsp?</span>
+                        </p>
+                    </div>
+                    <div class="saoma-landing"></div>
+                </div>
+                <p class="qita">
+                    <span class="left"></span>
+                    其他方式登录
+                    <span class="right"></span>
+                </p>
+                <div class="other">
+                    <a class="wrap">
+                        <span class="qq">
+                
+                        </span>
+                    </a>
+                    <a class="wrap">
+                        <span class="weibo">
+                            
+                        </span>
+                    </a>
+                    <a class="wrap">
+                        <span class="zhifubao">
+                            
+                        </span>
+                    </a>
+                    <a class="wrap">
+                        <span class="weixin">
+                            
+                        </span>
+                    </a>
+                </div>
+        </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="foot-mid">
+            <div class="language">
+                <span class="jianti">简体</span>
+                <span class="shu-three">|</span>
+                <span class="fanti">繁体</span>
+                <span class="shu-three">|</span>
+                <span class="fanti">English</span>
+                <span class="shu-three">|</span>
+                <span class="fanti">常见问题</span>
+            </div>
+            <div class="banquan">
+                小米公司版权所有-京ICP备10046444-&nbsp&nbsp&nbsp京公网安备11010802020134号-京ICP证110507号
+            </div>
+        </div>
+    </div>
+</body>
+</html>

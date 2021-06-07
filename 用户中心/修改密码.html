@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修改密码页面</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            list-style: none;
+        }
+        .content1 {
+            margin-top: 20px;
+            width: 780px;
+            height: 1000px;
+            margin: auto;
+            background-color:#f0f0f0;
+        }
+        .pwd {
+            height: 60px;
+            width: 700px;
+            margin: auto;
+            border-bottom: 2px dashed #8c8c8c;
+           
+        }
+        .pwd>span {
+            display: inline-block;
+            margin:15px 40px;
+            border-left: 4px solid #19c9c9;
+            padding: 5px 30px;
+        }
+        .phone {
+            background: url(images/phone2.png) no-repeat 20px center;
+            margin: 20px 0 40px  80px;
+          
+        }
+        .wechat {
+            background: url(images/weixin3.png) no-repeat 20px center;
+            margin: 20px 0 40px  80px;
+        }
+        .phone,.wechat {
+            position: relative;
+            width: 500px;
+            height: 73px;
+            background-color: #fff;
+            padding-left: 70px;
+            padding-top: 10px;
+        }
+        .phone>button,.wechat>button {
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            background-color: #fea700;
+            outline: none;
+            border: none;
+            color: #fff;
+            width: 80px;
+            height: 30px;
+        }
+        .content1 li {
+            
+            font-size: 12px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content1">
+         <div class="pwd">
+            <span>
+                修改密码
+            </span>
+         </div>
+        <div class="phone">
+              <ui>
+                  <li>手机号绑定</li>
+                  <li>您还未绑定手机号</li>
+              </ui>
+              <button>立即绑定</button>
+        </div>
+        <div class="wechat">
+              <ui>
+                  <li>微信绑定</li>
+                  <li>您还未绑定微信号</li>
+              </ui>
+              <button>立即绑定</button>
+        </div>
+    </div>
+</body>
+</html>

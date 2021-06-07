@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <title>Hello, World</title>  
+    <style type="text/css">  
+    html{height:100%}  
+    body{height:100%;margin:0px;padding:0px}  
+    .box{
+        width: 100%;
+        height: 340px;
+    }
+    #map{
+        height:100%}  
+    </style>  
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=mDIalGGsTI8YZWN60GZvjrkvBWhmliD9">
+    </script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <script src="lib/jquery-3.2.1.js"></script>     
+    
+</head>
+<body>
+    <!-- 导航栏开始 -->
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <div class="header col-lg-12  col-md-12 col-sm-12 col-xs-12">
+                    <nav class="navbar navbar-default" role="navigation" id="navbar">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                
+                            </a>
+                        </div>
+                    
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav navbar-right" id="nav-click">
+                                <li><a href="index.html">首页</a></li>
+                                <li class="li-click"><a href="guanyugongsi.html" class="a-click" >关于公司</a></li>
+                                <li><a href="chanpinzhanshi.html" >产品展示</a></li>
+                                <li><a href="zhaoshangjiameng.html" >招商加盟</a></li>
+                                <li><a href="lianxiwomen.html" >联系我们</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航栏结束 -->
+    <img src="images/gongsi.jpg" alt="" style="width: 100%;margin-bottom: 30px;">
+    <div class="container jinshen">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 zhanshi clear-padding" style="margin-bottom: 30px;">
+                <div>
+                    产品展示
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="box">
+                    <div id="map"></div> 
+                </div>
+                <script type="text/javascript"> 
+                    var map = new BMap.Map("map");
+                    // 创建地图实例  
+                    var point = new BMap.Point(114.2275,30.60508);
+                    // 创建点坐标  
+                    map.centerAndZoom(point, 18);
+                    // 初始化地图，设置中心点坐标和地图级别  
+                    map.addControl(new BMap.NavigationControl());    
+                    map.addControl(new BMap.ScaleControl());    
+                    map.addControl(new BMap.OverviewMapControl());    
+                    map.addControl(new BMap.MapTypeControl());    
+                    map.setCurrentCity("武汉");
+                    </script> 
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 yanse">
+                <div>
+                    <p>&nbsp&nbsp&nbsp&nbsp木兮地板由著名的湖北百诺木业有限公司监制出品。木兮地板秉承了百诺木业一贯的品质，将严谨的作风，不苟的态度，时尚的气息有机地融合到地板中，将木兮地板的无尽心血，无穷才智淋漓尽致的展现在世人面前</p><br>
+                    <p>&nbsp&nbsp&nbsp&nbsp湖北百诺木业有限公司以一流的设备，一流的材料，一流的技术造一流的地板，公司先后通过ISO9001质量管理认证和ISO14000环境管理体系认证，并获得“中国知名品牌”称号。强大的研发队伍，精良的生产工艺，严格的质检把关确保了木兮系列产品的优秀品质，是您居家，办公，开店的首选地板。</p><br>
+                    <p>&nbsp&nbsp&nbsp&nbsp木兮地板耐磨等级符合AC3标准，甲醛释放量低于国家E1标准，更健康环保，阻燃等级达到B1标准。湖北百诺木业有限公司对市场的坚定信念和雄厚的实力以及积极响应政府和环保政策都让自己在市场上占有重要的位置，并成为地板行业的领跑者</p><br>
+                    <p>&nbsp&nbsp&nbsp&nbsp“一面艺术,一面科技”，湖北百诺木业有限公司将用最真诚的行动来打动每位客户。</p><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部版权栏开始 -->
+    <div class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 yuwenlogo">
+                    <img src="images/logo3.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 heighter">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">关于公司</div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">产品展示</div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">招商加盟</div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">联系我们</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 banquan">版权所有@木兮视野有限公司&nbsp鄂ICP备18011650号</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 widther">
+                    <p class="col-lg-12 col-md-12 col-sm-4 col-xs-12">027-83622296</p>
+                    <p class="col-lg-12 col-md-12 col-sm-4 col-xs-12">13387576980</p>
+                    <p class="col-lg-12 col-md-12 col-sm-4 col-xs-12">yt15yi@163.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部版权栏结束 -->
+    <script src="lib/jquery-3.2.1.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

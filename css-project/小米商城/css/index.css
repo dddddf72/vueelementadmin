@@ -1,0 +1,292 @@
+*{margin: 0;padding: 0;}
+.top-content{
+    height: 70px;
+    width: 899.2px;
+    margin: 0 auto;
+    position: relative;
+}
+.color{
+    width: 40px;
+    height: 40px;
+    background-color: #F56600;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    border-radius: 2px;
+    background-image: url(../images/mi-logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;  
+    left: 0px;
+    top: 15px;
+}
+.header{
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    left: 57px;
+    font-size: 0px;
+}
+.header>a:first-child{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 30px;
+}
+.header>a:last-child{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 1px;
+    margin: 0;
+    transform: scale(0.83);
+}
+.content{
+    margin-right: 0;
+    width: 100%;
+    position: relative;
+    height: 469px;
+    background-image: url(../images/banner.png);
+    background-position: top center;
+}
+.content-mid{
+    height: 469px;
+    width: 899.2px;
+    margin: 0 auto;
+    position: relative;
+}
+.message{
+    position: absolute;
+    right: 0;
+    top: 22.5px;
+    background-color: white;
+    width: 320px;
+    height: 421px;
+}
+.landing{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 19px;
+}
+.landing span:first-child{
+    margin-right: 30px;
+}
+.landing span:nth-child(2){
+    margin-left: 30px;
+}
+.landing-choice{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    margin: 0 auto 0;
+    position: relative;
+}
+.zhanghao-landing{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 280px;
+    height: 280px;
+    margin: 0 auto 0;
+}
+.phone{
+    width: 260px;
+    height: 23px;
+    padding: 8px 10px 10px;
+    border: 1px solid #E0E0E0;
+}
+.phone input{
+    width: 20px;
+    width: 260px;
+    border: none;
+    font-size: 10px;
+    color: #E0E0E0;
+    outline: none;
+}
+.password{
+    margin-top: 10px;
+    width: 260px;
+    height: 23px;
+    padding: 8px 10px 10px;
+    border: 1px solid #E0E0E0;
+}
+.password input{
+    width: 260px;
+    border: none;
+    font-size: 10px;
+    color: #E0E0E0;
+    outline: none;
+}
+.submit{
+    margin-top: 15px;
+    width: 280px;
+    height: 40px;
+   
+}
+.submit input{
+    width: 280px;
+    height: 43px;
+    text-align: center;
+    background-color: #F56600;
+    color: white;
+    outline: none;
+    border: 1px solid #E0E0E0;
+    font-size: 15px;
+}
+.register{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #A599B2;
+}
+.zhuce{
+    margin-right: 10px;
+}
+.wangji{
+    margin-left: 10px;
+}
+.saoma-landing{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    width: 280px;
+    height: 340px;
+    margin: 0 auto 0;
+    background-image: url(../images/erweima.png);
+    background-repeat: no-repeat;
+    background-position: center 30px;
+    background-size: 250px 250px;
+    background-color: white;
+}
+.dianji{
+    cursor: pointer;
+    color: #F56600;
+}
+.qita{
+    position: relative;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: #BBBBBB;
+}
+.left{
+    position: absolute;
+    left: 23px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #E0E0E0;
+    top: 50%;
+}
+.right{
+    position: absolute;
+    left: 199px;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #E0E0E0;
+    top: 50%;
+}
+.other{
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+}
+.other a:first-child{
+    margin-left: 30px;
+}
+.other a:not(:first-child){
+    margin-left: 26px;
+}
+.qq{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/icons_type.png);
+    background-repeat: no-repeat;
+    background-position-x: -18px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.weibo{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/icons_type.png);
+    background-repeat: no-repeat;
+    background-position-x: -36px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.zhifubao{
+    display: inline-block;
+    width: 28px;
+    height: 29px;
+    background-image: url(../images/icons_type.png);
+    background-repeat: no-repeat;
+    background-position-x: -56px;
+    position: absolute;
+    left: 2px;
+    top: 4px;
+}
+.weixin{
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    background-image: url(../images/icons_type.png);
+    background-repeat: no-repeat;
+    background-position-x: -83px;
+    position: absolute;
+    left: 1px;
+    top: 5px;
+}
+.qq:hover{
+    cursor: pointer;
+}
+.weibo:hover{
+    cursor: pointer;
+}
+.zhifubao:hover{
+    cursor: pointer;
+}
+.weixin:hover{
+    cursor: pointer;
+}
+.wrap{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: #747474;
+    border-radius: 50%;
+    position: relative;
+}
+.foot{
+    height: 100px;
+    margin-top: 50px;
+}
+.foot-mid{
+    margin: 0 auto;
+}
+.language{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: #A6A6A6;
+}
+.banquan{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+    color: #A6A6A6;
+}
+.language>span:nth-child(2n+1):hover{
+    cursor: pointer;
+    color: #4A4752  ;
+}

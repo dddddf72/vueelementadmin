@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        @keyframes animate {
+            0%{
+                transform:rotate(0deg)
+            }
+            100%{
+                transform:rotate(360deg)
+            }
+        }
+        @keyframes animate-one {
+            0%{
+                transform:rotate(-30deg)
+            }
+            100%{
+                transform:rotate(0deg)
+            }
+        }
+        @keyframes animate-two {
+            0%{
+                transform:rotate(0deg)
+            }
+            100%{
+                transform:rotate(-30deg)
+            }
+        }
+        @keyframes animate-line {
+            0%{
+                transform:rotate(0deg) scale(1);
+                opacity: 1;
+            }
+            100%{
+                transform:rotate(360deg) scale(1.6);
+                opacity: 0.2;
+            }
+        }
+        @keyframes animate-ball {
+            0%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        body{
+            background: linear-gradient(145deg, #ffa29a, #d98882);  
+        }
+        .content{
+            width: 400px;
+            height: 600px;
+            margin: 150px auto;
+            position: relative;
+            border-radius: 50px;
+background: linear-gradient(145deg, #ffa29a, #d98882);
+box-shadow:  25px 25px 100px #985f5b, 
+             -25px -25px 100px #ffcfc5;
+        }
+        .stylus{
+            width: 130px;
+            transform-origin: 35px 35px;
+            transform: rotate(-30deg);
+            position: absolute;
+            left: 165px;
+            z-index: 99;
+        }
+        .play-one{
+            animation: animate-one 2s;
+            animation-fill-mode: forwards;
+            transform-origin: 35px 35px;
+        }
+        .play-two{
+            animation: animate-two 2s;
+            animation-fill-mode: forwards;
+            transform-origin: 35px 35px;
+        }
+        .bg{
+            width: 280px;
+            border-radius: 50%;
+            animation: animate 5s linear infinite;
+            animation-play-state: paused;
+            position: absolute;
+            top: 150px;
+            left: 25px;
+            z-index: 9;
+            margin-left: 35px;
+        }
+        .play-btn{
+            margin: 0 175px;
+            width: 50px;
+            position: absolute;
+            top: 500px;
+        }
+        .line-one{
+            height: 250px;
+            width: 250px;
+            border: 1px solid #CE723B;
+            border-radius: 50%;
+            position: absolute;
+            top: 165px;
+            left: 75px;
+            animation: animate-line 5s linear infinite;
+            animation-play-state: paused;
+        }
+        .ball-one{
+            height: 5px;
+            width: 5px;
+            background-color: #CE723B;
+            margin-left: 50%;
+            margin-top: -2.5px;
+            border-radius: 50%;
+            animation: animate-ball 5s linear infinite;
+        }
+        .line-two{
+            height: 250px;
+            width: 250px;
+            border: 1px solid #CE723B;
+            border-radius: 50%;
+            position: absolute;
+            top: 165px;
+            left: 75px;
+            animation: animate-line 5s linear infinite;
+            animation-play-state: paused;
+        }
+        .ball-two{
+            height: 5px;
+            width: 5px;
+            background-color: #CE723B;
+            margin-right: -2.5px;
+            margin-top: 50%;
+            border-radius: 50%;
+            animation: animate-ball 5s linear infinite;
+        }
+        .line-three{
+            height: 250px;
+            width: 250px;
+            border: 1px solid #CE723B;
+            border-radius: 50%;
+            position: absolute;
+            top: 165px;
+            left: 75px;
+            animation: animate-line 5s linear infinite;
+            animation-play-state: paused;
+        }
+        .ball-three{
+            height: 5px;
+            width: 5px;
+            background-color: #CE723B;
+            margin-left: 50%;
+            margin-bottom: -2.5px;
+            border-radius: 50%;
+            animation: animate-ball 5s linear infinite;
+        }
+        .line-four{
+            height: 250px;
+            width: 250px;
+            border: 1px solid #CE723B;
+            border-radius: 50%;
+            position: absolute;
+            top: 165px;
+            left: 75px;
+            animation: animate-line 5s linear infinite;
+            animation-play-state: paused;
+        }
+        .ball-four{
+            height: 5px;
+            width: 5px;
+            background-color: #CE723B;
+            margin-left: -2.5px;
+            margin-top: 50%;
+            border-radius: 50%;
+            animation: animate-ball 5s linear infinite;
+        }
+    </style>
+    <script src="lib/jquery-3.2.1.js"></script>
+</head>
+<body>
+    <div class="content">
+        <img src="images/play-item.png" alt="" class="stylus">
+        <img src="images/bg.png" alt="" class="bg">
+        <img src="images/pause.png" alt="" class="play-btn">
+        <div class="line-one">
+            <div class="ball-one">
+            </div>            
+        </div>
+        <div class="line-two">
+            <div class="ball-two">
+            </div>            
+        </div>
+        <div class="line-three">
+            <div class="ball-three">
+            </div>            
+        </div>
+        <div class="line-four">
+            <div class="ball-four">
+            </div>            
+        </div>
+    </div>
+    <script>
+        var isPlay = false;
+        $(".play-btn").click(function(){
+            if(isPlay){
+                isPlay = false
+                $(this).attr("src","images/pause.png")
+                $(".bg").css({"animationPlayState":"paused"})
+                $(".stylus").addClass("play-two").removeClass("play-one")
+                $(".line-one").css({"animation-delay":"0s","animationPlayState":"paused"})
+                $(".ball-one").css({"animation-delay":"0s","animationPlayState":"paused"})
+                $(".line-two").css({"animation-delay":"1.25s","animationPlayState":"paused"})
+                $(".ball-two").css({"animation-delay":"1.25s","animationPlayState":"paused"})
+                $(".line-three").css({"animation-delay":"2.5s","animationPlayState":"paused"})
+                $(".ball-three").css({"animation-delay":"2.5s","animationPlayState":"paused"})
+                $(".line-four").css({"animation-delay":"3.75s","animationPlayState":"paused"})
+                $(".ball-four").css({"animation-delay":"3.75s","animationPlayState":"paused"})
+            }else{
+                isPlay = true
+                $(this).attr("src","images/play.png")
+                $(".bg").css({"animationPlayState":"running"})
+                $(".stylus").addClass("play-one").removeClass("play-two")
+                $(".line-one").css({"animation-delay":"0s","animationPlayState":"running"})
+                $(".ball-one").css({"animation-delay":"0s"})
+                $(".line-two").css({"animation-delay":"1.25s","animationPlayState":"running"})
+                $(".ball-two").css({"animation-delay":"1.25s"})
+                $(".line-three").css({"animation-delay":"2.5s","animationPlayState":"running"})
+                $(".ball-three").css({"animation-delay":"2.5s"})
+                $(".line-four").css({"animation-delay":"3.75s","animationPlayState":"running"})
+                $(".ball-four").css({"animation-delay":"3.75s"})
+            }
+            
+        })
+    </script>
+</body>
+</html>

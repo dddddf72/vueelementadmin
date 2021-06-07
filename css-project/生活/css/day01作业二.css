@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+.all{
+    background-color: aliceblue;
+}
+.headline{
+    font-weight: bolder;
+    color: black;
+    font-size: large;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: lightcyan;
+
+}
+.content{
+    background-image: url(../images/timg2.jpg);
+    padding: 10px;
+    width: 400px;
+    border: 1px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search{
+    width: 280px;
+    height: 30px;
+}
+.btn{
+    width: 100px;
+    height: 34px;
+    background-color: aquamarine;
+    border: 1px solid springgreen;
+}
+.title{
+    color: deepskyblue;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.image1{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ment{
+    color: #333333;
+    padding: 5px;
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_2209880_jgebow3eq4p.css">
+    <script src="https://at.alicdn.com/t/font_2209880_jgebow3eq4p.js"></script>
+    <title>支付宝</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <script src="lib/jquery-3.2.1.js"></script>
+    <style type="text/css">
+        .icons {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <div class="top">
+            <div class="city">
+                <a href="">
+                    <span>武汉</span><i class="iconfont icon-down2"></i>
+                    <p>多云 14℃</p>
+                </a>
+            </div>
+            <div class="input">
+                <i class="iconfont icon-fangdajing"></i>
+                <div class="box">
+                    <div class="insidebox">
+                        <div class="banner" id="list" style="top:-20px">
+                            <div class="banners">优速快递</div>
+                            <div class="banners">中通助手</div>
+                            <div class="banners">德邦快递</div>
+                            <div class="banners">百世快递</div>
+                            <div class="banners">优速快递</div>
+                            <div class="banners">中通助手</div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    $(function () {
+                        var timer;
+                        var index = 0;
+                        function animate(offset) {
+                            var newTop = $("#list").position().top + offset
+                            $("#list").animate({ top: newTop + "px" }, 500, function () {
+                                if (newTop < -80) {
+                                    $("#list").css({ top: "-20px" })
+                                }
+                                if (newTop > -20) {
+                                    $("#list").css({ top: "-80px" })
+                                }
+                            })
+                        }
+                        function play() {
+                            timer = setInterval(function () {
+                                if (!$("#list").is(":animated")) {
+                                    index++;
+                                    if (index > 3) {
+                                        index = 0;
+                                    }
+                                    animate(-20);
+                                }
+                            }, 3000)
+                        }
+                        play();
+                    })
+                </script>
+                <i class="iconfont icon-huatong"></i>
+            </div>
+            <div class="add">
+                <a href="">
+                    <i class="iconfont icon-add"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hide"></div>
+        <div class="function">
+            <div class="function1"></div>
+            <div class="function2"></div>
+            <div class="function3"></div>
+            <div class="function4"></div>
+        </div>
+        <div class="content">
+            <div class="menu">
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-changyonglogo40"></use>
+                        </svg>
+                        <p>饿了么</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-koubei"></use>
+                        </svg>
+                        <p>口碑</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-shimintongyonghuguanli"></use>
+                        </svg>
+                        <p>市民中心</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-feizhu"></use>
+                        </svg>
+                        <p>飞猪酒店</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-dianying"></use>
+                        </svg>
+                        <p>电影演出</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-zhuanzhang"></use>
+                        </svg>
+                        <p>转账</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-yinxingqia3"></use>
+                        </svg>
+                        <p>信用卡还贷</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-shouji"></use>
+                        </svg>
+                        <p>充值中心</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-yuebao"></use>
+                        </svg>
+                        <p>余额宝</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-didichuhang"></use>
+                        </svg>
+                        <p>滴滴出行</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-xiaoyuan"></use>
+                        </svg>
+                        <p>校园</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-zhimaxinyong"></use>
+                        </svg>
+                        <p>芝麻信用</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-jiankangma"></use>
+                        </svg>
+                        <p>健康码</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-huabei"></use>
+                        </svg>
+                        <p>花呗</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <svg class="icons" aria-hidden="true">
+                            <use xlink:href="#icon-quanbu"></use>
+                        </svg>
+                        <p>全部</p>
+                    </div>
+                </a>
+            </div>
+            <div class="shouzhi">
+                <ul>
+                    <li>
+                        付款成功￥7.80 <span>54分钟前</span>
+                    </li>
+                    <li>
+                        你有一个新的快递信息 <span>1小时前</span>
+                    </li>
+                </ul>
+                <div class="round"></div>
+                <div class="arrowhead"></div>
+            </div>
+            <div class="ad">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="banner">
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="banner">
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="banner">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hide1"></div>
+    <div class="foot">
+        <div class="nav">
+            <div class="nav1 navs"></div>
+            <div class="nav2 navs"></div>
+            <div class="nav3 navs"></div>
+            <div class="nav4 navs"></div>
+            <div class="nav5 navs" style="background-image: url();"></div>
+        </div>
+    </div>
+    <script>
+        $(".nav1").click(function () {
+            console.log(1)
+            $(".nav").css({ backgroundImage: "url('images/shouye.PNG')" })
+        })
+        $(".nav2").click(function () {
+            console.log(1)
+            $(".nav").css({ backgroundImage: "url(images/licai.PNG)" })
+        })
+        $(".nav3").click(function () {
+            console.log(1)
+            $(".nav").css({ backgroundImage: "url(images/koubei.PNG)" })
+        })
+        $(".nav4").click(function () {
+            console.log(1)
+            $(".nav").css({ backgroundImage: "url(images/xiaoxi.PNG)" })
+        })
+        $(".nav5").click(function () {
+            console.log(1)
+            $(".nav").css({ backgroundImage: "url(images/wode.PNG)" })
+        })
+    </script>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal', // 垂直切换选项
+            loop: true, // 循环模式选项
+            // autoplay: {
+            //     delay: 3000,
+            //     stopOnLastSlide:false,
+            //     disableOnInteraction: true,
+            // },
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        })       
+    </script>
+</body>
+
+</html>

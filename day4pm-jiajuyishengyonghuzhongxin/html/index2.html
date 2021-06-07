@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        div {
+           
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: flex-start;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(24, 190, 190);
+        }
+        .span1,.span2,.span3{
+            display: flex;
+            align-items: center;
+            
+        }
+        .span2,.span3{
+            margin-top: 10px;
+            height: 90px;
+            
+        }
+        .span2{
+            margin-left: 40px;
+            margin-right: 40px;
+            border-left: 1px solid  rgb(209, 207, 207);
+        }
+        .span1 img{
+            width: 108px;
+            height: 109px; 
+            margin-left: 50px;
+        }
+        .span1 span{
+            margin-left: 10px;
+        }
+        .span2 span{
+            margin-left: 10px;
+        }
+        .span3 span{
+            margin-left: 10px;
+        }
+        .span2 img{
+            width: 37px;
+            height: 37px;
+            margin-left: 50px;
+
+        }
+        .span3 img{
+            width: 37px;
+            height: 37px;
+            margin-left: 0px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+       <span class="span1">
+       <img src="../images/user.png" alt="">
+       <span>
+        <p>用户名</p>
+        <p>积分值：198分</p>
+        <p>我的消息：0条</p>
+       </span>
+       </span>
+       <span class="span2">
+           <img src="../images/weixin1.png" alt="">
+           <span>
+            <p>微信绑定</p>
+            <p>未绑定 <a href="">立即绑定</a> </p>
+           </span>
+          
+       </span>
+       <span class="span3">
+           <img src="../images/phone.png" alt="">
+           <span>
+            <p>手机号码绑定</p>
+            <p>未绑定 <a href="">立即绑定</a></p>
+           </span>
+           
+       </span>
+    </div>
+</body>
+
+</html>

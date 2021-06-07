@@ -1,0 +1,55 @@
+.body{
+	margin: 0px;
+	padding: 0px;
+}
+.a{
+	text-align: center;
+	height: 90px;
+	line-height: 90px;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0 3px 4px gray;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.neirong{
+	margin-left: 360px;
+	margin-right: 360px;
+}
+.b{
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+.b:hover{color: #808080;}
+.picture{
+	width: 800px;
+}
+.c{
+	line-height: 30px;
+	text-decoration: none;
+	color: #000000;
+}
+.c:hover{color: bisque;}
+.d{
+	font-weight: bold;
+	line-height: 50px;
+	text-decoration: none;
+	color: #000000;
+}
+.d:hover{color: bisque;}
+.e{
+	line-height: 40px;
+	padding: 0px;
+}
+.x:hover{color: bisque;}
+.y:hover{color: bisque;}
+.z:hover{color: bisque;}
+.x,y,z{
+	cursor: pointer;
+}

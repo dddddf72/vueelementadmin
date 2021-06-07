@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-left">
+            <ul class="li-left">
+                <li>新闻</li>
+                <li>hao123</li>
+                <li>地图</li>
+                <li>视频</li>
+                <li>贴吧</li>
+                <li>学术</li>
+                <li>更多</li>
+             </ul>
+        </div>
+        <div class="nav-right">
+            <ul class="li-right">
+                <li class="drop-menu">设置</li>
+                <div class="drop-content">
+                    <div class="holder"></div>
+                    <p class="hah">搜索设置</p>
+                    <p>高级搜索</p>
+                    <p>关闭预测</p>
+                    <p>隐私设置</p>
+                    <p>关闭热榜</p>
+                </div>
+                <script>
+                    var oBtn=document.getElementsByClassName("drop-menu")[0];
+                    var oDiv=document.getElementsByClassName("drop-content")[0];
+                    var timer=0;
+                    oBtn.onmouseover= oDiv.onmouseover=function(){
+                        clearTimeout(timer);   //在消失前的那段时间里，再移入就会关闭延时计时器，就不会消失了
+                        oDiv.style.display="block";
+                        oCqc.style.display="block";
+                    }
+                    oBtn.onmouseout=oDiv.onmouseout=function(){
+                        // 鼠标离开不立即消失，等会再消失就用延时计时器
+                        timer=setTimeout(function(){
+                            oDiv.style.display="none";
+                        },150);
+                    }
+                </script>
+                <li>登录</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <img src="../day03作业二/images/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" class="pic">
+        <br>
+        <div class="out">
+            <div class="search">
+                <input type="text" class="search-input">
+                <div class="camera"></div>
+            </div>
+            <button class="search-button"><a href style="text-decoration: none;color: white;">百度一下</a></button>
+        </div>
+        <br><br>
+        <div class="hot">
+            <p>百度热榜</p>
+            <div class="change">
+                <p>换一换</p>
+            </div>
+        </div>
+        <div class="hot-search">
+            <div class="search-one">
+                <div class="search1"><p class="one">1&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="ONE">院方否认青岛新增病例是院内感染</p></div>
+                <div class="search2"><p class="two">2&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="TWO">2020年诺贝尔经济学奖揭晓</p></div>
+                <div class="search3"><p class="three">3&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="THREE">外交部回应防弹少年团言论</p></div>
+            </div>
+            <div class="search-two">
+                <div class="search4"><p class="four">4&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="FOUR">瑞幸咖啡被罚200万元</p></div>
+                <div class="search5"><p class="five">5&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="FIVE">青岛已排查密接132人</p></div>
+                <div class="search6"><p class="five">6&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="SIX">六旬大妈称要嫁给靳东</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="logo"></div>
+        <div class="bottom">
+            <div class="bottom-left">
+                <ul class="bottom-left-li">
+                    <li>设为首页</li>
+                    <li>关于百度</li>
+                    <li>About&nbsp&nbspBaidu</li>
+                    <li>百度营销</li>
+                    <li>使用百度前必读</li>
+                    <li>意见反馈</li>
+                    <li>帮助中心</li>
+                </ul>
+            </div>
+            <div class="bottom-right">
+                <ul class="bottom-right-li">
+                    <li>©2020 Baidu</li>
+                    <li>(京)-经营性-2017-0020</li>
+                    <li>京公网安备11000002000001号</li>
+                    <li>京ICP证030173号</li>
+                </ul>
+        </div>
+    </div>
+</body>
+</html>

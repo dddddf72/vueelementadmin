@@ -1,0 +1,79 @@
+*{margin: 0;padding: 0;}
+html{
+    background-color: #F0F0F0;
+}
+.geren{
+    width: 650px;
+    height: 800px;
+}
+.content{
+    width: 650px;
+    height: 140px;
+    overflow: hidden;
+    background-color: #EDEDED;
+    border: 1px solid #E9E9E9;
+}
+.content-left{
+    float: left;
+    width: 270px;
+    height: 109px;
+    margin: 15px 0 15px 30px;
+    position: relative;
+}
+.content-left>p:nth-child(2){
+    position: absolute;
+    left: 120px;
+    top: 10px;
+    font-size: 18px;
+    color: #535353;
+}
+.content-left>p:last-child{
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    color: #5E5E5E;
+}
+.content-right{
+    float: left;
+    width: 349px;
+    height: 100px;
+    margin: 24px 0;
+    border-left: 1px solid #CFCFCF;
+    position: relative;
+}
+.weixin{
+    position: absolute;
+    top: 31.5px;
+    left: 20px;
+    width: 145px;
+    overflow: hidden;
+}
+.weixin>img{
+    float: left;
+}
+.weixin>p{
+    font-size: 10px;
+    margin: 2.5px 0 2.5px 45px;
+}
+.weixin>p a{
+    text-decoration: none;
+    color: #19BEBE;
+}
+.shouji{
+    position: absolute;
+    top: 31.5px;
+    left: 185px;
+    width: 145px;
+    overflow: hidden;
+}
+.shouji>img{
+    float: left;
+}
+.shouji>p{
+    font-size: 10px;
+    margin: 2.5px 0 2.5px 45px;
+}
+.shouji>p a{
+    text-decoration: none;
+    color: #19BEBE;
+}

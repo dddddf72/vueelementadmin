@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2161142_rznbv5s5h1r.css">
+    <script src="lib/jquery-3.2.1.js"></script>
+</head>
+<body>
+    <div class="to-top-box">
+        <div class="to-top">
+           <i class="iconfont icon-to-top"></i>
+        </div>
+    </div>
+    <script>
+        $(window).scroll(function () {
+            var scrollTop = $(window).scrollTop();
+            console.log(scrollTop)
+            if (scrollTop > 300) {
+                $(".to-top-box").show(300)
+            } else {
+                $(".to-top-box").hide(300)
+            }
+        })
+        $(".to-top-box").click(function(){
+            $("html").animate({scrollTop:0})
+        })
+    </script>
+    <div class="top">
+        <div class="header-nav">
+            <div class="logo"></div>
+            <div class="header-nav-input">
+                <div class="header-nav-inputbox">
+                    <a href="#"><i class="iconfont icon-sousuo"></i></a>
+                    <div class="input-clear">
+                        <button type="button" class="close" id="clear">
+                                    ×
+                        </button>
+                    </div>
+                    <input type="text" placeholder="搜索" id="input">
+                    <script>
+                        $("#clear").click(function(){
+                            $("#input").val("");
+                        });
+                        // $("#input").focus(function(){  
+                        //     $(this).parent().children("").show();  
+                        // });  
+                        function clear(){
+                            var val = $("#input").value
+                            if (val == '') {
+                                $(this).parent().children(".input-clear").hide();
+                            }else{
+                                console.log(val)
+                            $(this).parent().children(".input-clear").show();
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+            <div class="catalogue">
+                <ul>
+                    <li><a>工作台</a></li>
+                    <li><a>空间</a></li>
+                    <li><a>发现</a></li>
+                    <li><a>帮助</a></li>
+                    <li><a>反馈</a></li>
+                </ul>
+            </div>
+            <div class="personal">
+                <ul>
+                    <li>
+                        <img src="images/add.svg" alt="">
+                    </li>
+                    <li>
+                        <i class="iconfont icon-naozhong3" style="font-size: 18px !important;font-weight: 600;color: #828282;"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-huodongnaoling" style="font-size: 18px !important;color: #828282;"></i>
+                    </li>
+                    <li>
+                        <img src="images/personal.png" alt="" style="border-radius: 50%;display: inline;" class="fan">
+                        <i class="iconfont icon-f11" style="font-size: 16px !important;color: #8C8C8C;"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-mid">
+            <div class="self-introduction">
+                <div class="si-top">
+                    <img src="images/si.png" alt="">
+                    <div class="text">
+                        <div class="name">chengbenchao</div>
+                        <div class="description">诺夫从未启程，弱者死于途中，而我们在路上</div>
+                    </div>
+                    <div class="user-info-button">
+                        <button>关注</button>
+                    </div>
+                    <div class="user-info-focus">
+                        <div class="focus">
+                            <p>关注了</p>
+                            <p>8</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="focus">
+                            <p>关注者</p>
+                            <p>177</p>
+                        </div>
+                    </div>
+                    <div class="user-info-list">
+                        <p><i class="iconfont icon-zuobiao"></i>武汉</p>
+                        <p><i class="iconfont icon-gongwenbao"></i>web前端工程师</p>
+                    </div>
+                    <div class="user-info-team">
+                        <h5 class="team">团队</h5>
+                        <div class="blankslate">尚未加入任何团队</div>
+                    </div>
+                </div>
+            </div>
+            <div class="homepage">
+                <div class="menu">
+                    <div class="block down-line">知识库</div>
+                    <div class="block">关注了</div>
+                    <div class="block">关注者</div>
+                </div>
+                <div class="menubox">
+                    <div class="books-subheader">
+                        <div class="books-subheader-inputbox">
+                            <a href="#"><i class="iconfont icon-sousuo"></i></a>
+                            <input type="text" placeholder="搜索知识库">
+                        </div>
+                        <div class="type">
+                            类型:&nbsp&nbsp所有
+                        </div>
+                    </div>
+                    <div class="ul">
+                        <ul>
+                            <li>
+                                <div class="storehouse">
+                                    <p>小程序</p>
+                                    <p>昨天&nbsp16:55</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="storehouse">
+                                    <p>前端</p>
+                                    <p>html-css-js-wechat学习笔记</p>
+                                    <p>10-23&nbsp15:09</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="slogan"></div>
+        <div class="links">
+            <ul>
+                <li>关于语雀</li>
+                <li>使用帮助</li>
+                <li>数据安全</li>
+                <li>服务协议</li>
+                <li>English</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

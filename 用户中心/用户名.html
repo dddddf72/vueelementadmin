@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户名</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            list-style: none;
+        }
+        .content2 {
+            margin-top: 20px;
+            width: 780px;
+            height: 1000px;
+            margin: auto;
+            background-color:#f0f0f0;
+        }
+        .usename {
+            position: relative;
+            margin-left: 35px;
+            padding-left: 35px;
+            background: url(images/user.png) no-repeat left center;
+            padding: 30px 40px 20px 120px;
+            
+        }
+        .wechat-binding {
+            position: absolute;
+            top: 45px;
+            right: 180px;
+            width: 150px;
+            height: 50px;
+            background: url(images/weixin.png) no-repeat left center;
+           
+        }
+        .phone-binding {
+            position: absolute;
+            top: 45px;
+            right: 20px;
+            width: 150px;
+            height: 50px;
+            background: url(images/phone.png) no-repeat left center;
+          
+        }
+        .wechat-binding,.phone-binding {
+            font-size: 12px;
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+
+        .line {
+            position: absolute;
+            top: 35px;
+            left: 310px;
+            border-left: 1px solid #3c3c3c;
+            height: 80px;
+        }
+        .content2 a {
+            text-decoration: none;
+            color: #1ac0c0;
+        }
+        .bgc {
+            background-color: #ededed;
+            border: .5px solid #d3d0d0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content2">
+      <div class="bgc">
+        <div class="usename">
+            <ui>
+                <li style="font-size: 19px;padding-bottom: 22px;">用户名</li>
+                <li style="padding-bottom: 5px;">积分：198分</li>
+                <li>我的消息：2条</li>
+            </ui>
+            <div class="wechat-binding">
+                  <ui>
+                      <li>微信绑定</li>
+                      <li>未绑定&nbsp;<a href="#">立即绑定</a></li>
+                  </ui>
+            </div>
+            <div class="phone-binding">
+                <ui>
+                    <li>手机号码绑定</li>
+                    <li>未绑定&nbsp;<a href="#">立即绑定</a></li>
+                </ui>
+            </div>
+            <div class="line"></div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

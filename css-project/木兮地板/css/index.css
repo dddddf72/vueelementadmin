@@ -1,0 +1,230 @@
+*{margin: 0;padding: 0;}
+#navbar{
+    background-image: url(../images/logo0.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+@media (max-width:768px){
+    .content{
+        width: 83% !important;
+    }
+    #navbar{
+        background-image: url(../images/logo.png);
+        background-position: left 18px ;
+        background-repeat: no-repeat ;
+        background-size: 80px ;
+    }
+    .heighter .row div{
+        height: 28px;
+        line-height: 28px;
+    }
+    .widther p{
+        padding: 0;
+    }
+    .container{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+}
+/* 导航栏开始 */
+.content{
+    margin: 0 auto !important;
+}
+.navbar-header{
+    height: 80px !important;
+}
+.content .navbar-default .navbar-nav > li>a:hover{
+    color: #2dae36;
+}
+.navbar-default .navbar-nav > li:hover{
+    border-bottom: 2px solid #2dae36 !important;
+}
+.li-click{
+    border-bottom: 2px solid #2dae36 !important;
+}
+.a-click{
+    color: #2dae36 !important;
+}
+/* 导航栏结束 */
+/* 底部版权栏开始 */
+.add-padding{
+    padding: 15px !important;
+}
+.foot{
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    background-color: #DDDDDD;
+}
+.yuwenlogo{
+    text-align: center;
+    height: 80px;
+}
+.yuwenlogo img{
+    transform: translateX(10px);
+    width: 100px;
+}
+.banquan{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.heighter .row{
+    padding-top: 20px;
+    margin-bottom: -10px;
+}
+.heighter .row:first-child div{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: 300;
+}
+.heighter .row:first-child div:hover{
+    color: #2dae36;
+}
+.widther p{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: 300;
+}
+/* 底部版权栏结束 */
+/* 首页开始 */
+.qiyejinshen{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.qiyejinshen h3{
+    text-align: center;
+    margin: 0 auto;
+}
+.icon{
+    width: 100%;
+}
+.icon img{
+    margin: 0 auto;
+    display: block;
+    width: 33%;
+}
+.slogan{
+    width: 100%;
+    text-align: center;
+}
+.slogan h3{
+    width: 100%;
+    color: #2dae36;
+}
+.slogan p{
+    width: 100%;
+    font-size: 14px;
+    color: #666666;
+}
+.zhanshi{
+    border-bottom: 0.5px solid #2dae36;
+}
+.jinshen{
+    margin-bottom: 50px;
+}
+.clear-padding{
+    padding: 0 !important;
+}
+.zhanshi div{
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: #2dae36;
+    border-radius: 16px 0 16px 0;   
+}
+/* 首页结束 */
+/* 关于公司开始 */
+.yanse div p{
+    font-size: 15px;
+    color: #666666;
+}
+#baidumap{
+    height: 100%;;
+}  
+/* 关于公司结束 */
+/* 产品展示开始 */
+.products{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 0 !important;
+}
+.product{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 !important;
+}
+.padding-change{
+    padding-left: 0 !important;
+    padding-right: 30px !important;
+}
+/* 产品展示结束 */
+/* 招商加盟开始 */
+.zhaoshangjiameng{
+    height: 300px;
+    display: none;
+}
+.tiaojian{
+    font-size: 30px;
+    color: #333;
+    line-height: 1.6em;
+    padding-top: 12px;
+}
+.yinyu{
+    font-size: 18px;
+    color: #2dae36;
+}
+.green-big{
+    color: #2dae36;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2em;
+    margin: 10px 0;
+}
+/* 招商加盟结束 */
+/* 联系我们开始 */
+.lianxiwomen
+{
+    height: 300px;
+    display: none;
+}
+.font-right-box{
+    padding-right: 50px !important;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 56px;
+    box-sizing: border-box;
+    line-height: 100px;
+    border-right: 1px solid #2dae36;
+}
+.font-right{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 48px 0;
+    line-height: 56px;
+    height: 56px;
+    font-size: 30px;
+    text-align: right;
+}
+.iconfont{
+    color: #2dae36;
+    font-size: 36px !important;
+}
+.font-left p{
+    height: 36px;
+    line-height: 36px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.icon-shouji{
+    color: #2dae36;
+    font-size: 56px !important;
+    font-weight: 300 !important;
+}
+/* 联系我们结束 */

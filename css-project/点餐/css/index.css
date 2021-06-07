@@ -1,0 +1,357 @@
+*{margin: 0;padding: 0}
+.content{
+    width: 950px;
+    height: 670px;
+    margin: 30px auto 0;
+    background-color: #332D25;
+    padding-top: 20px;
+    border-radius: 2%;
+    overflow: hidden;
+}
+.left{
+    width: 300px;
+    height: 590px;
+    position: relative;
+    float: left;
+}
+.side{
+    position: absolute;
+    left: 264px;
+    top: 160px;
+    width: 33px;
+    height: 430px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 100;
+    padding-left: 3px;
+}
+.dingceng{
+    position: absolute;
+    left: 264px;
+    top: 160px;
+    width: 33px;
+    height: 430px;
+    z-index: 999;
+    padding-left: 3px;
+}
+.bgc{
+    background-color: #FDFDED;
+}
+.bgc i{
+    font-size: 28px;
+    color: #777166;
+}
+.tubiao{
+    width: 30px;
+    height: 30px;
+    margin-top: 16px;
+    border-radius: 50%;
+}
+.tubiao img{
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+}
+.logo{
+    width: 300px;
+    height: 40px;
+    background-image: url(../images/t1.png);
+    border-radius: 3px 3px 0 0;
+}
+.user{
+    width: 300px;
+    height: 70px;
+    background-image: url(../images/sideBg.png);
+}
+.user-message{
+    height: 35px;
+    line-height: 35px;
+    text-indent: 2em;
+    color: #E9BA83;
+    font-weight: 600;
+}
+.name{
+    background-image: url(../images/user.png);
+    background-position: 12px 9px;
+    background-repeat: no-repeat;
+}
+.time{
+    background-image: url(../images/time.png);
+    background-position: 11px 7px;
+    background-repeat: no-repeat;
+}
+.specific{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 9px;
+    color: #D0CDCD;
+    background-image: url(../images/bg3.png);
+    background-size: 28px;
+    font-size: 19px;
+}
+.pic-specific{
+    transform: translateY(3px);
+}
+.goods{
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    background: linear-gradient(#F4F2E6,#EBDBC4);
+    border-top: 1px solid #CBB7A2;
+    border-bottom: 1px solid #CBB7A2;
+    padding-top: 10px;
+}
+.goods span{
+    color: #813919;
+    font-size: 15px;
+    display: inline-block;
+}
+.weight{
+    font-weight: 600;
+}
+.goods span:first-child{
+    margin-left: 25px;
+    width: 60px;
+}
+.goods span:nth-child(2){
+    width: 30px;
+    text-align: right;
+}
+.goods span:nth-child(3){
+    width: 60px;
+    text-align: right;
+}
+.goods span:nth-child(4){
+    width: 60px;
+    text-align: right;
+}
+.bg div:last-child{
+    box-shadow: 0 1px 3px 0.1px;
+}
+.zeng{
+    position: relative;
+}
+.zeng img{
+    position: absolute;
+    left: 3px;
+    top: 13px;
+}
+.bg{
+    width: 300px;
+    height: 330px;
+    background-image: url(../images/shouzibg.png);
+}
+.price{
+    box-shadow: 1px 0 3px 0.1px;
+    width: 300px;
+    height: 100px;
+    background-color: #F3E7BF;
+    position: relative;
+    font-size: 20px;
+}
+.total{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: #F2F1D3;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+input{
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    width: 200px;
+    height: 28px;
+    border: none;
+    background-color: white;
+    box-shadow: 1px 1px 3px inset;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+.price button{
+    position: absolute;
+    left: 220px;
+    top: 62px;
+    width: 33px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+.pic-clear{
+    position: absolute;
+    top: 65px;
+    left: 185px;
+}
+
+.icon-sousuo{
+    position: absolute;
+    top: 65px;
+    left: 229px;
+}
+.right{
+    float: right;
+    width: 648px;
+    height: 590px;
+}
+.logo-right{
+    width: 648px;
+    height: 40px;
+    background-image: url(../images/t1.png);
+    border-radius: 3px 3px 0 0;
+}
+.type{
+    width: 498px;
+    height: 40px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.type .types:not(:last-child){
+    float: left;
+    width: 85px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: #ECBD85;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 2px 2px 0 0;
+    color: #8B4D22;
+}
+.type .types:first-child{
+    float: left;
+    width: 90px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: #C6412E;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 2px 2px 0 0;
+    color: white;
+}
+.type .types:last-child{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #ECBD85;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 2px 2px 0 0;
+}
+.icon-shangxia{
+    color: #8B4D22;
+}
+.book{
+    width: 630px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.book-side{
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    float: left;
+    width: 80px;
+    height: 500px;
+    background-image: url(../images/bg5.png);
+    background-position: right top;
+}
+.menu{
+    border-radius: 0 5px 5px 0;
+    width: 545px;
+    height: 500px;
+    float: left;
+    background-color: #FEFBF5;
+}
+.line{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 500px;
+    border-top: 3px solid #C63F2B;
+}
+.box{
+    width: 510px;
+    height: 70px;
+    overflow: hidden;
+}
+.dish{
+    float: left;
+    width: 92px;
+    height: 60px;
+    border: 1px solid #F8E8D1;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px rgb(248,232,209);
+    box-sizing: border-box;
+    margin-left: 8px;
+    background-color: #FEFEFD;
+}
+.huodong{
+    background-image: url(../images/互动图标.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 2px solid #C63F2B;
+}
+.font{
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.font p:first-child{
+    color: #CC3333;
+}
+.font p:last-child{
+    color: #686868;
+}
+.vip{
+    width: 300px;
+    height: 80px;
+    float: left;
+    color: white;
+}
+.function{
+    width: 600px;
+    height: 80px;
+    float: right;
+    overflow: hidden;
+}
+.functions{
+    width: 65px;
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    float: left;
+}
+.pic-funtions{
+    display: block;
+    margin: 5px 12.5px 5px;
+}
+.function button{
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    color: #FCF0D1;
+    background-color: #C4402C;
+    text-indent: 25px;
+    background-image: url(../images/收银中心.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    border: none;
+}
+.icon-yuding-on{
+    
+    font-size: 45px;
+    border-radius: 50%;
+    margin: 5px 12.5px 5px;
+    background-color: #996666;
+    color: #FFFFFF;
+}

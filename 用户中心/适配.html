@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <title>Document</title>
+    <style>
+        div {
+            width: 1600px;
+            height: 20rem;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        rem
+    </div>
+    <script>
+        // var layOutWidth = window.unnerWidth;
+        // var deviceWidth = window.screen.width;
+        var width= window.innerWidth ;
+        var html = document.getElementsByTagName("html")[0];
+        html.style.fontSize =width/10+"px";
+        window.onresize = function(){
+            var wudth =document.documentElement.clientWidth ;
+            html.style.fontSize = width/10+"px"
+        }
+        console.log(width);
+        console.log(html);
+    </script>
+</body>
+</html>
