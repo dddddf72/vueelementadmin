@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../logo.ico">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1796518_xl6j06eowop.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/head.css">
+    <link rel="stylesheet" href="./pic//pic.css">
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+      <div class="head__logo">
+        <a href="#">LingeringVoice余音</a>
+      </div>
+      <div class="head__navList">
+        <nav class="head__nav">
+          <ul>
+            <li><a href="./musicList/musicList.html">歌单</a></li>
+            <li><a href="./ranking/ranking.html">榜单</a></li>
+            <li><a href="./videoList/videoList.html">MV</a></li>
+            <li><a href="./newMusic/newMusic.html">新碟</a></li>
+            <li><a href="./singerList/singerList.html">歌手</a></li>
+            <li><a href="./ticketing/ticketing.html">票务</a></li>
+            <li><a href="./myMusic/myMusic.html" class="my">我的</a></li>
+            <!-- <li><a href="">app</a></li> -->
+          </ul>
+        </nav>
+        <nav class="head__login">
+          <ul>
+            <li>
+              <input type="text" name="" id="" placeholder="音乐/视频/电台/用户" class="searchText">
+              <i class="iconfont icon-fangdajing searchBtn"></i>
+            </li>
+            <li class="notLogin" style="display: block;">
+              <a href="./login/login.html"><button class="loginBtn">登录</button></a>
+            </li>
+            <li class="userInfo" style="display: none;">
+              <img src="./img/img_4.jpg" alt="" class="avatar">
+              <ul class="info">
+                <li>个人设置</li>
+                <li class="signOut">退出登录</li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="body">
+      <div class="picWrap">
+        <button class="pic__prev">
+          <i class="iconfont icon-zuoyoujiantou-copy-copy-copy-copy"></i>
+        </button>
+        <div class="pic">
+          <ul class="pic__inner" style="width: 400vw; left: -240vw; transition: left 0.5s ease 0s;">
+            <li>
+              <a href="./player/player.html?musicId=1448256976"><img src="http://p1.music.126.net/rOPEBWp8WV9PWCDngNWZjQ==/109951164994651536.jpg?imageView&amp;quality=89" alt=""></a>
+            </li>
+            <li>
+              <a href="./player/player.html?musicId=1448006342"><img src="http://p1.music.126.net/hHDmsWRzjKLGqFyBhzk4OA==/109951164994712269.jpg?imageView&amp;quality=89" alt=""></a>
+            </li>
+            <li>
+              <a href="./player/player.html?musicId=1448750854"><img src="http://p1.music.126.net/DkyE7a9vrbOweu33hwA7AQ==/109951164994677173.jpg?imageView&amp;quality=89" alt=""></a>
+            </li>
+          <li>
+              <a href="./player/player.html?musicId=1448256976"><img src="http://p1.music.126.net/rOPEBWp8WV9PWCDngNWZjQ==/109951164994651536.jpg?imageView&amp;quality=89" alt=""></a>
+            </li></ul>
+          <div class="pic__dots">
+            <span class="active"></span>
+            <span class=""></span>
+            <span class=""></span>
+          </div>
+        </div>
+        <button class="pic__next">
+          <i class="iconfont icon-zuoyoujiantou"></i>
+        </button>
+      </div>
+      <!-- 歌单推荐 -->
+      <div class="recom">
+        <div class="recom__title">
+          <h2>歌单推荐</h2>
+          <a href="./musicList/musicList.html">
+            <span class="recom__more">更多&gt;&gt;</span></a>
+        </div>
+        <hr>
+        <div class="recom__listWrap">
+          <ul class="recom__list"><li class="card">
+                <div class="card__img">
+                    <img src="https://p1.music.126.net/saLluHWvKsV1Dozue1SQkQ==/109951164943683659.jpg" alt="">
+                    <a href="./songList/songList.html?listId=4990330086">
+                        <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+                    </a>
+                </div>
+                <p class="title">幸亏我爱笑，生活才没那么糟糕</p>
+                <!-- <p class="user">by 念念念安娜</p> -->
+                <p class="num">播放量：537.29万</p>
+            </li><li class="card">
+                <div class="card__img">
+                    <img src="https://p1.music.126.net/da0ijnKCsKVAfbxjmWjhxg==/109951164841320586.jpg" alt="">
+                    <a href="./songList/songList.html?listId=3204486765">
+                        <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+                    </a>
+                </div>
+                <p class="title">前奏秒杀一切（纯音乐）</p>
+                <p class="user">by 萌小希o</p>
+                <p class="num">播放量：373.88万</p>
+            </li><li class="card">
+                <div class="card__img">
+                    <img src="https://p1.music.126.net/XijLip8CT3gTZfSWJuYWCg==/109951164990356401.jpg" alt="">
+                    <a href="./songList/songList.html?listId=2916346957">
+                        <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+                    </a>
+                </div>
+                <p class="title">逆光而来，温柔的你配得上世间所有美好</p>
+                <p class="user">by 后原</p>
+                <p class="num">播放量：184.00万</p>
+            </li><li class="card">
+                <div class="card__img">
+                    <img src="https://p1.music.126.net/ByKQmuHLCmbmoHfsEDSJOQ==/109951164350584323.jpg" alt="">
+                    <a href="./songList/songList.html?listId=2717493873">
+                        <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+                    </a>
+                </div>
+                <p class="title">失恋 | 每一首歌都有你的心情</p>
+                <p class="user">by Catcub-哒哒</p>
+                <p class="num">播放量：1270.63万</p>
+            </li><li class="card">
+                <div class="card__img">
+                    <img src="https://p1.music.126.net/zk3QExfjxafpWTKu0DZsGA==/109951164717393424.jpg" alt="">
+                    <a href="./songList/songList.html?listId=4869164805">
+                        <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+                    </a>
+                </div>
+                <p class="title">私藏 | 值得循环的Cover合集</p>
+                <p class="user">by 她的水彩笔</p>
+                <p class="num">播放量：1336.69万</p>
+            </li><li class="card">
+                <div class="card__img">
+                    <img src="https://p1.music.126.net/sBjAk2OWVwfxd_1curOvtw==/109951164683524236.jpg" alt="">
+                    <a href="./songList/songList.html?listId=3232240174">
+                        <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+                    </a>
+                </div>
+                <p class="title">奥~你是对的人 不得不承认</p>
+                <p class="user">by 娇娇-HY</p>
+                <p class="num">播放量：112.26万</p>
+            </li><li class="card">
+                <div class="card__img">
+                    <img src="https://p1.music.126.net/XWYYemCMmSfgFTrgdwR1CA==/109951164737070906.jpg" alt="">
+                    <a href="./songList/songList.html?listId=4879799554">
+                        <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+                    </a>
+                </div>
+                <p class="title">刷题 看书 学习 工作 冥想</p>
+                <p class="user">by 音乐收藏者010</p>
+                <p class="num">播放量：755.84万</p>
+            </li><li class="card">
+                <div class="card__img">
+                    <img src="https://p1.music.126.net/Zl66oqWxpI25x8zuFhQ-Rg==/109951165024151871.jpg" alt="">
+                    <a href="./songList/songList.html?listId=3131035907">
+                        <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+                    </a>
+                </div>
+                <p class="title">一秒沦陷 | 超好听的Remix</p>
+                <p class="user">by 故事且温柔83</p>
+                <p class="num">播放量：986.32万</p>
+            </li></ul>
+        </div>
+
+        <div class="recom__dots">
+          <span class="active"></span>
+          <span></span>
+        </div>
+      </div>
+      <!-- 音乐帖和今日歌曲 -->
+      <div class="article_hotsong">
+        <div class="article">
+          <h2>Music Stickers</h2>
+          <div class="img"></div>
+          <p class="title">再盛大的相遇，都是一场别离。</p>
+          <hr>
+          <p class="info">
+            音乐贴，从网友的美文推荐中精选而出，是余音给每一篇好作品的支持和鼓励。每周一更新！
+          </p>
+        </div>
+        <div class="hotsong">
+          <h2>今日精选</h2>
+          <hr>
+          <ul class="todayMusic__list"><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1827600686">
+        <img src="https://p2.music.126.net/9FhSEQtMhP-JP3_U84YfWQ==/109951165798773745.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1827600686">
+            <p class="name">还是会想你</p>
+        </a>
+            <p class="singer">林达浪/h3R3</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1827600686">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1826179038">
+        <img src="https://p1.music.126.net/EU8r6sBwJlGB8pNb8fIt7g==/109951165791943145.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1826179038">
+            <p class="name">大风吹</p>
+        </a>
+            <p class="singer">王赫野</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1826179038">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1828026086">
+        <img src="https://p2.music.126.net/sXY3pJFHq2WVDkv7tpWUJw==/109951165808483827.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1828026086">
+            <p class="name">爱就一个字</p>
+        </a>
+            <p class="singer">王赫野</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1828026086">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1826184498">
+        <img src="https://p2.music.126.net/AV1IeZrOVSuujoEadD0Kyg==/109951165809269097.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1826184498">
+            <p class="name">千万勇敢</p>
+        </a>
+            <p class="singer">景甜</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1826184498">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1826189043">
+        <img src="https://p1.music.126.net/6EX0yj-r5GBLzSNU20rrmQ==/109951165791933542.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1826189043">
+            <p class="name">Stone Heart</p>
+        </a>
+            <p class="singer">Mai/pH-1/NINEONE#/NoLabelCrew</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1826189043">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1830730921">
+        <img src="https://p1.music.126.net/1StrAUoYc-CHZqfRq2JByA==/109951165816872468.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1830730921">
+            <p class="name">我从哪里来</p>
+        </a>
+            <p class="singer">邵帅</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1830730921">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1830708118">
+        <img src="https://p1.music.126.net/89m2p7Gok3BTF_YkYsvtVg==/109951165816702966.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1830708118">
+            <p class="name">烂泥</p>
+        </a>
+            <p class="singer">唐汉霄</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1830708118">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1825216505">
+        <img src="https://p2.music.126.net/Z_qKqkiDjg6iz5P8hKwkrQ==/109951165782210153.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1825216505">
+            <p class="name">善意</p>
+        </a>
+            <p class="singer">李韩宇Yuzi</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1825216505">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li><li>
+    <div class="music_info">
+    <a href="./player/player.html?musicId=1831371780">
+        <img src="https://p2.music.126.net/IX_vqvUAwQ14FmO3yCz-QQ==/109951165824919423.jpg" alt="">
+        </a>
+        <div class="info">
+        <a href="./player/player.html?musicId=1831371780">
+            <p class="name">Anyone</p>
+        </a>
+            <p class="singer">Justin Bieber</p>
+        </div>
+    </div>
+    <i class="iconfont icon-heart"></i>
+    <a href="./player/player.html?musicId=1831371780">
+        <i class="iconfont icon-iconfontplay"></i>
+    </a>
+</li></ul>
+        </div>
+      </div>
+
+      <div class="newMusic">
+        <div class="newMusic__title">
+          <h2>新碟上架</h2>
+          <a href="./newMusic/newMusic.html"><span class="newMusic__more">更多&gt;&gt;</span></a>
+        </div>
+        <hr>
+        <ul class="newMusic__list"><li class="card">
+        <div class="card__img">
+            <img src="http://p3.music.126.net/W5iJ7pbQqn5OpBhtV_6OcA==/109951165827579431.jpg" alt="">
+            <a href="./player/player.html?musicId=1831767639">
+                <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+            </a>
+        </div>
+        <a href="./player/player.html?musicId=1831767639"><p class="title">我能给的幸福</p></a>
+        <p class="user">by 阿云嘎</p>
+    </li><li class="card">
+        <div class="card__img">
+            <img src="http://p4.music.126.net/yG7HbzBR5VRu2DGH8PZ34w==/109951165816077774.jpg" alt="">
+            <a href="./player/player.html?musicId=1830419924">
+                <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+            </a>
+        </div>
+        <a href="./player/player.html?musicId=1830419924"><p class="title">Peaches</p></a>
+        <p class="user">by Justin Bieber/Daniel Caesar/Giveon</p>
+    </li><li class="card">
+        <div class="card__img">
+            <img src="http://p3.music.126.net/zARTsttGDGyy8OI-QObUmQ==/109951165819834478.jpg" alt="">
+            <a href="./player/player.html?musicId=1830079389">
+                <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+            </a>
+        </div>
+        <a href="./player/player.html?musicId=1830079389"><p class="title">无渴不爽</p></a>
+        <p class="user">by 华晨宇</p>
+    </li><li class="card">
+        <div class="card__img">
+            <img src="http://p3.music.126.net/6XXQfU9JR7ZgrcIWbNgKRw==/109951165813944828.jpg" alt="">
+            <a href="./player/player.html?musicId=1830423322">
+                <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+            </a>
+        </div>
+        <a href="./player/player.html?musicId=1830423322"><p class="title">因一个人而流出一滴泪</p></a>
+        <p class="user">by 莫文蔚</p>
+    </li><li class="card">
+        <div class="card__img">
+            <img src="http://p4.music.126.net/BzGpf6VxpVVXKHWjDPeILA==/109951165778552172.jpg" alt="">
+            <a href="./player/player.html?musicId=1823175189">
+                <div class="play"><i class="iconfont icon-iconfontplay"></i></div>
+            </a>
+        </div>
+        <a href="./player/player.html?musicId=1823175189"><p class="title">M.I.A (feat. Jackson Wang)</p></a>
+        <p class="user">by Afgan/王嘉尔</p>
+    </li></ul>
+      </div>
+    </div>
+    <div class="footer"></div>
+    <div class="loading__wrap" style="opacity: 0; display: none;">
+      <div class="loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <script src="./js/util.js"></script>
+    <script src="./js/commen.js"></script>
+    <script src="./pic/pic.js"></script>
+    <script src="./js/index.js"></script>
+  
+
+    <!-- <div id="fatkun-drop-panel">
+        <a id="fatkun-drop-panel-close-btn">×</a>
+        <div id="fatkun-drop-panel-inner">
+            <div class="fatkun-content">
+                <svg class="fatkun-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5892"><path d="M494.933333 782.933333c2.133333 2.133333 4.266667 4.266667 8.533334 6.4h8.533333c6.4 0 10.666667-2.133333 14.933333-6.4l2.133334-2.133333 275.2-275.2c8.533333-8.533333 8.533333-21.333333 0-29.866667-8.533333-8.533333-21.333333-8.533333-29.866667 0L533.333333 716.8V128c0-12.8-8.533333-21.333333-21.333333-21.333333s-21.333333 8.533333-21.333333 21.333333v588.8L249.6 475.733333c-8.533333-8.533333-21.333333-8.533333-29.866667 0-8.533333 8.533333-8.533333 21.333333 0 29.866667l275.2 277.333333zM853.333333 874.666667H172.8c-12.8 0-21.333333 8.533333-21.333333 21.333333s8.533333 21.333333 21.333333 21.333333H853.333333c12.8 0 21.333333-8.533333 21.333334-21.333333s-10.666667-21.333333-21.333334-21.333333z" p-id="5893"></path></svg>
+                <div class="fatkun-title">拖拽到此处</div>
+                <div class="fatkun-desc">图片将完成下载</div>
+            </div>
+            <div id="fatkun-supported-by">由Fatkun智能下载器(图片/视频/音乐/文档) Pro提供</div>
+        </div>
+    </div> -->
+</body>
+</html>
