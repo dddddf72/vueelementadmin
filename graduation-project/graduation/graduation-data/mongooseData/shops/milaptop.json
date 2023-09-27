@@ -1,0 +1,331 @@
+[{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354be5"
+  },
+  "title": "拍拍 【二手95成新】小米/Xiaomi MI笔记本Air13全面屏轻薄商务办公学生二手笔记本电脑13寸 【Air12】M3 6Y30 /4GB/128G",
+  "store": "首趋二手电脑专营店",
+  "price": "1929.00",
+  "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/133166/8/8438/377568/5f4c6b73Eac40b283/01ce01372dd63968.png",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354be6"
+  },
+  "title": "拍拍 【二手9成新】小米(MI)airpro 12/13/15.6英寸全金属手提轻薄学生二手笔记本电脑超薄 二：12寸 M3-7y30 4G 128G集显",
+  "store": "欧域二手电脑专营店",
+  "price": "2199.00",
+  "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/133166/8/8438/377568/5f4c6b73Eac40b283/01ce01372dd63968.png",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354be7"
+  },
+  "title": "拍拍 【二手9成新】小米MI 笔记本电脑超薄游戏本15.6寸酷睿i7-8550 i5-6200 8G 256G 2G独显",
+  "store": "亿柯二手电脑专营店",
+  "price": "2699.00",
+  "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/21235/36/4772/99749/5c358366Ebba4406e/4bd309beb544569a.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354be8"
+  },
+  "title": "拍拍 【二手95成新】小米/Xiaomi MI笔记本Air13全面屏轻薄商务办公学生二手笔记本电脑13寸 【Air12】 M3 7Y30/4G/256G",
+  "store": "首趋二手电脑专营店",
+  "price": "2199.00",
+  "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/113181/19/16796/296469/5f535344E5333dda4/16ec2a1d7811190c.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354be9"
+  },
+  "title": "拍拍 【二手9成新】小米（MI）二手全金属笔记本电脑 airpro12/13/15超薄便携商务办公学习本 AIR13 i5七代 8G 256G 2G独显",
+  "store": "宁美电竞二手电脑专营店",
+  "price": "2999.00",
+  "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/117904/40/14190/114102/5f2a9002E968e98f4/28b42720137f7721.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bea"
+  },
+  "title": "拍拍 【二手9成新】小米（MI）二手全金属笔记本电脑 airpro12/13/15超薄便携商务办公学习本 AIR13 i5-6200U 8G 256G 独显",
+  "store": "宁美电竞二手电脑专营店",
+  "price": "2799.00",
+  "goodsImg": "https://img12.360buyimg.com/n7/jfs/t1/102447/25/10308/126937/5e1935c4E77f9093f/a831e20f5c4963d2.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354beb"
+  },
+  "title": "拍拍 【二手9成新】小米（MI）二手全金属笔记本电脑 airpro12/13/15超薄便携商务办公学习本 AIR12 7Y30 4G 256G",
+  "store": "宁美电竞二手电脑专营店",
+  "price": "2289.00",
+  "goodsImg": "https://img12.360buyimg.com/n7/jfs/t1/117904/40/14190/114102/5f2a9002E968e98f4/28b42720137f7721.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bec"
+  },
+  "title": "拍拍 【二手9成新】小米（MI）二手全金属笔记本电脑 airpro12/13/15超薄便携商务办公学习本 AIR12 6Y30 4G 128G",
+  "store": "宁美电竞二手电脑专营店",
+  "price": "2089.00",
+  "goodsImg": "https://img12.360buyimg.com/n7/jfs/t1/102447/25/10308/126937/5e1935c4E77f9093f/a831e20f5c4963d2.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bed"
+  },
+  "title": "拍拍 【二手9成新】小米（MI）二手全金属笔记本电脑 airpro12/13/15超薄便携商务办公学习本 AIR12 6Y30 4G 256G",
+  "store": "宁美电竞二手电脑专营店",
+  "price": "2189.00",
+  "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/117904/40/14190/114102/5f2a9002E968e98f4/28b42720137f7721.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bee"
+  },
+  "title": "拍拍 【二手95新】小米笔记本电脑Pro 15.6英寸Pro/Ruby设计商务办公游戏红米学生手提 ⑪Proi5八代8G+256G固态 2G独显",
+  "store": "爱回收二手商品专营店",
+  "price": "3499.00",
+  "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/21235/36/4772/99749/5c358366Ebba4406e/4bd309beb544569a.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bef"
+  },
+  "title": "拍拍 【二手9成新】小米(MI)airpro 12/13/15.6英寸全金属手提轻薄学生二手笔记本电脑超薄 一：12寸 M3-6y30 4G 128G集显",
+  "store": "欧域二手电脑专营店",
+  "price": "2099.00",
+  "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/121967/12/11892/295267/5f535342E778b5b3a/24b476c5ef8a42c4.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf0"
+  },
+  "title": "拍拍 【二手9成新】小米MI 笔记本电脑超薄游戏本15.6寸酷睿i7-8550 i5-8250 8G 1T+128 独显2G",
+  "store": "亿柯二手电脑专营店",
+  "price": "3199.00",
+  "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/21235/36/4772/99749/5c358366Ebba4406e/4bd309beb544569a.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf1"
+  },
+  "title": "拍拍 【二手9成新】小米(MI)airpro 12/13/15.6英寸全金属手提轻薄学生二手笔记本电脑超薄 三：12寸 M3-7y30 4G 256G集显",
+  "store": "欧域二手电脑专营店",
+  "price": "2299.00",
+  "goodsImg": "https://img12.360buyimg.com/n7/jfs/t1/102447/25/10308/126937/5e1935c4E77f9093f/a831e20f5c4963d2.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf2"
+  },
+  "title": "拍拍 【二手9成新】小米MI 笔记本电脑超薄游戏本15.6寸酷睿i7-8550 i7-6500 8G 256G 2G独显",
+  "store": "亿柯二手电脑专营店",
+  "price": "2999.00",
+  "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/115752/2/17116/294837/5f535342Ee827844e/e3670ba4615e8add.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf3"
+  },
+  "title": "拍拍 【二手9成新】小米MI 笔记本电脑超薄游戏本15.6寸酷睿i7-8550 M3 4G 128G",
+  "store": "亿柯二手电脑专营店",
+  "price": "2099.00",
+  "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/21235/36/4772/99749/5c358366Ebba4406e/4bd309beb544569a.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf4"
+  },
+  "title": "拍拍 【二手95新】Xiaomi/小米MI笔记本Air二手全面屏金属轻薄商务办公学生电脑12/13.3寸 配置9 i5-7200 8+256G",
+  "store": "爱回收二手商品专营店",
+  "price": "3099.00",
+  "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/102447/25/10308/126937/5e1935c4E77f9093f/a831e20f5c4963d2.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf5"
+  },
+  "title": "拍拍 【二手95新】Xiaomi/小米MI笔记本Air二手全面屏金属轻薄商务办公学生电脑12/13.3寸 配置2-2 M3-7Y30 4+256G12.5寸",
+  "store": "爱回收二手商品专营店",
+  "price": "2399.00",
+  "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/102447/25/10308/126937/5e1935c4E77f9093f/a831e20f5c4963d2.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf6"
+  },
+  "title": "拍拍 【二手95新】Xiaomi/小米MI笔记本Air二手全面屏金属轻薄商务办公学生电脑12/13.3寸 配置6 i5-6200 8+256G",
+  "store": "爱回收二手商品专营店",
+  "price": "2799.00",
+  "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/152412/9/12491/158154/5feaa64fE307c7242/e66574de1d7458ce.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf7"
+  },
+  "title": "拍拍 【二手95新】Xiaomi/小米MI笔记本Air二手全面屏金属轻薄商务办公学生电脑12/13.3寸 配置2-1 M3-7Y30 4+128G12.5寸",
+  "store": "爱回收二手商品专营店",
+  "price": "2199.00",
+  "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/141338/15/7262/381411/5f4dbfc1E0490ecf0/8c1d14f3be0cb3a8.png",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf8"
+  },
+  "title": "拍拍 【二手95新】小米（MI）笔记本13.3寸air12寸轻薄商务办公学生电脑游戏本二手小米红米book 15.6寸 i78代/8G/256G 独显 指纹",
+  "store": "爱购购二手商品专营店",
+  "price": "3678.00",
+  "goodsImg": "https://img12.360buyimg.com/n7/jfs/t1/128949/11/3318/481292/5ed08ab8Ebd6fb6e3/59f5d65cb8e899af.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bf9"
+  },
+  "title": "拍拍 【二手95新】小米游戏本15.6英寸轻薄窄边框笔记本电脑可选2019款电竞级性能游戏本 19款-9代i7/16G+1T RTX2060 灰色",
+  "store": "闲至优品二手电脑专营店",
+  "price": "4599.00",
+  "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/165235/12/9321/230137/604201c8Eb0a4f3f4/44dae12d5b2f21ef.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bfa"
+  },
+  "title": "拍拍 【二手95新】小米笔记本电脑Pro 15.6英寸Pro/Ruby设计商务办公游戏红米学生手提 ①Ruby i3八代处理器 4G+128G固态",
+  "store": "爱回收二手商品专营店",
+  "price": "2399.00",
+  "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/117904/40/14190/114102/5f2a9002E968e98f4/28b42720137f7721.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bfb"
+  },
+  "title": "拍拍 【二手95成新】小米/Xiaomi MI笔记本Air13全面屏轻薄商务办公学生二手笔记本电脑13寸 【Air12】M3 7Y30/4G/128G",
+  "store": "首趋二手电脑专营店",
+  "price": "2099.00",
+  "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/122828/36/6690/568592/5f06c761E827244d4/c562b2c9ebbbf6fa.png",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bfc"
+  },
+  "title": "拍拍 【二手9成新】Xiaomi/小米 游戏本 八代增强版 I7 1050Ti 16G内存 GTX1060 配置7",
+  "store": "优娴电竞二手笔记本专营店",
+  "price": "4700.00",
+  "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/162895/30/10095/213227/6042065eE386e26e8/43e78ff6d1969885.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bfd"
+  },
+  "title": "拍拍 【二手95新】Xiaomi/小米MI笔记本Air二手全面屏金属轻薄商务办公学生电脑12/13.3寸 配置3-1 M3-8100 4+128G12.5寸",
+  "store": "爱回收二手商品专营店",
+  "price": "2499.00",
+  "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/121377/39/7356/271392/5f1262a0Ef1ed43a3/0e7d5d1ad7af46c2.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bfe"
+  },
+  "title": "拍拍 【二手95成新】小米/Xiaomi MI笔记本Air13全面屏轻薄商务办公学生二手笔记本电脑13寸 Air13 i5 6代/8G/256G/940MX",
+  "store": "首趋二手电脑专营店",
+  "price": "2649.00",
+  "goodsImg": "https://img12.360buyimg.com/n7/jfs/t1/129438/1/4942/144437/5ee72165Efef5e3ea/97bc1c47ab280cf0.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354bff"
+  },
+  "title": "拍拍 【二手95新】小米RedmiBook 14英寸轻薄商务办公本学生做图游戏红米笔记本电脑 i5 8265U/8GB/512G/MX250",
+  "store": "首趋二手电脑专营店",
+  "price": "3199.00",
+  "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/141338/15/7262/381411/5f4dbfc1E0490ecf0/8c1d14f3be0cb3a8.png",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354c00"
+  },
+  "title": "拍拍 【二手95新】小米笔记本电脑Pro 15.6英寸Pro/Ruby设计商务办公游戏红米学生手提 配置19游戏本i7七代16+128G+1T6G独显",
+  "store": "爱回收二手商品专营店",
+  "price": "4799.00",
+  "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/128949/11/3318/481292/5ed08ab8Ebd6fb6e3/59f5d65cb8e899af.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354c01"
+  },
+  "title": "拍拍 【二手95新】小米RedmiBook 13/14/16英寸轻薄商务办公本学生做图游戏红米笔记本电脑 科技尝鲜 新款16.1/R5-4500U 16G+512G灰",
+  "store": "闲至优品二手电脑专营店",
+  "price": "3799.00",
+  "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/129728/26/4556/396320/5f1111f5E00ae9f1c/9e4333cb7b7c4b5a.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+},{
+  "_id": {
+    "$oid": "6042f1deae70c653b8354c02"
+  },
+  "title": "拍拍 【二手95新】小米笔记本电脑Pro 15.6英寸Pro/Ruby设计商务办公游戏红米学生手提 ⑮Proi7八代16G+256G 4G独显",
+  "store": "爱回收二手商品专营店",
+  "price": "4499.00",
+  "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/128949/11/3318/481292/5ed08ab8Ebd6fb6e3/59f5d65cb8e899af.jpg",
+  "collected": false,
+  "table": "milaptop",
+  "num": 1
+}]

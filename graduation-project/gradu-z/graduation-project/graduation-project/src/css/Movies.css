@@ -1,0 +1,22 @@
+.movies {
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+}
+.movies img {
+  width: 122px;
+  height: 164px;
+}
+.movies-title {
+  width: 122px;
+  white-space:nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.pages {
+  display: flex;
+  justify-content: center;
+}
+.pages>div:nth-child(1) {
+  padding-right: 10px;
+  line-height: 30px;
+}

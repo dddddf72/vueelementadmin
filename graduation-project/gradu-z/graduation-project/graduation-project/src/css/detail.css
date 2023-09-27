@@ -1,0 +1,65 @@
+.line2 {
+  border-top: 1px solid #dddddd;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.box {
+  display: flex;
+}
+.left {
+  flex:7;
+}
+.left>div {
+  padding-bottom: 20px;
+}
+.right {
+  flex:3;
+}
+.detail-top {
+  display: flex;
+}
+.information {
+  padding-left: 10px;
+}
+.information>div {
+  padding-bottom: 5px;
+}
+.detail-nums {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:10px 10px
+}
+.detail-num {
+  width: 126px;
+  height: 24px;
+  border: 1px solid #dddddd;
+  text-indent: 1em;
+}
+.detail-num a {
+  color: black; 
+}
+.detail-num:hover {
+  background-color: #fc8bbb;
+  color: white;
+}
+.detail-img img {
+  width: 200px;
+  height: 300px;
+}
+.detail-rels img {
+  width: 136px;
+  height: 180px;
+}
+.yonghu img {
+  width: 75px;
+  height: 50px;
+  vertical-align: middle;
+}
+.yonghu {
+  margin-top: 20px;
+  border-top: 1px solid #dddddd;
+  padding-top: 10px;
+}
+.pinglun {
+  padding-top: 10px;
+}

@@ -1,0 +1,28 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items:center
+}
+.name a {
+  font-size: 30px;
+  color: #e9849c;
+}
+.logo {
+  vertical-align: middle;
+}
+.contacts {
+  font-size: 35px;
+  vertical-align: middle;
+  color: #e9849c;
+}
+.hand-user a {
+  font-size: 16px;
+  color: #666666;
+}
+.hand-user {
+  display: flex;  
+}
+/* 导航栏 */
+.ivu-tabs-nav .ivu-tabs-tab-active {
+  color: #e9849c;
+}

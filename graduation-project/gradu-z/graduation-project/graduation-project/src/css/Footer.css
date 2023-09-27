@@ -1,0 +1,24 @@
+.footer {
+  font-size: 10px;
+  border-top: 2px solid #fa3d8d;
+  margin-top: 10px;
+  text-align: center;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+}
+.footer-nav div {
+  border-right: 1px solid red;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.footer-nav div a {
+  color: #515a6e;
+}
+.footer-nav div a:hover {
+  color: red;
+}
+.footer>div {
+  padding-top: 10px;
+}

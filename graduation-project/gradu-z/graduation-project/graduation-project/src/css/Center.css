@@ -1,0 +1,10 @@
+.type {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  border-bottom: 2px solid #dcdee2;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+.container {
+  margin-top: 15px;
+}

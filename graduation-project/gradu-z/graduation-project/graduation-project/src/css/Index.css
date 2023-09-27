@@ -1,0 +1,138 @@
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 200px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}
+.container {
+  display: flex;
+}
+.container-left {
+  flex:7.5;
+}
+.container-right {
+  flex:2.5;
+}
+.lable {
+  display: flex;
+  justify-content: space-between;
+}
+.lunbo {
+  width: 100%;
+  height: 100%
+}
+.index-title {
+  white-space:nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.index-img {
+  width: 136px;
+  height: 180px;
+}
+.grid-content {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#area {
+  padding: 0px;
+}
+.bg-purple:hover,a:hover {
+  color: #fc8bbb;
+}
+h2 {
+  color: #fc8bbb;
+}
+.more {
+  margin-right: 30px;
+}
+.el-tabs__item {
+  padding: 0px 5px;
+}
+.el-tabs--top.el-tabs--card>.el-tabs__header .el-tabs__item:nth-child(2) {
+  padding-left: 5px;
+}
+.el-tabs--top.el-tabs--card>.el-tabs__header .el-tabs__item:last-child {
+  padding-right: 5px;
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  padding-top: 5px;
+}
+.lists a {
+  color: #5f6779;
+}
+.lists a:hover {
+  color: #fc8bbb;
+}
+.lists-titles li {
+  width: 200px;
+  white-space:nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  padding-left: 10px;
+}
+.el-tabs--top {
+  margin-top: 10px;
+  background-color: #fff0f5;
+}
+.R-box {
+  padding-top: 30px;
+}
+.Rlists {
+  display: flex;
+  padding: 0px 10px;
+  background-color: #fff0f5;
+}
+.Rlists div:nth-child(1){
+  flex:1.5;
+}
+.Rlists div:nth-child(2){
+  flex:3.5;
+}
+.Rlists div:nth-child(3){
+  flex:5;
+}
+.Rlists-img img {
+  width: 75px;
+  height: 100px;
+}
+.Rlists-R>div {
+  font-size: 10px;
+  padding-top: 5px;
+}
+.Rlists>div {
+  border-bottom: 2px dashed #dddddd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Rintroduce {
+  color: #999999;
+}
+.Rtitle a {
+  color: #586073;
+}
+.Rtitle a:hover {
+  color: #fc8bbb;
+}
+.link>span {
+  padding-right: 15px;
+}
+.link>span a {
+  color: #000000;
+  font-size: 12px;
+}
+.link>span a:hover {
+  color: #ff0000;
+}

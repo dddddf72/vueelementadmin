@@ -1,0 +1,329 @@
+[{
+  "_id": {
+    "$oid": "603f44afd3b086df59408bf0"
+  },
+  "username": "郑彩艺",
+  "shopCart": [
+    {
+      "_id": {
+        "$oid": "6040b0a2c08edf28a03dfe7b"
+      },
+      "title": "【二手95新】女装服饰中长款修身西装上衣外套 二手奢侈品 女款 拼色 36码",
+      "price": "268.00",
+      "store": "林林衣二手专营店",
+      "goodsImg": "//img10.360buyimg.com/n7/jfs/t1/120186/13/8031/196303/5f1e4294E8a46d86a/a8d570484a95fac6.jpg",
+      "collected": false,
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "603f47ee5362153d045a5083"
+      },
+      "title": "【二手9成新】苹果xsmax 二手苹果手机 Apple iPhonexsmax 全网通 金色 64G 深空灰 256G 全网通",
+      "store": "拾锦二手商品专营店",
+      "price": "4029.00",
+      "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/153001/21/10217/110077/5fd8d479E63ac713f/f129c5052be48a14.jpg",
+      "collected": false,
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f1d2ae70c653b8354be4"
+      },
+      "title": "推荐理由：厚度0.8CM，重量1.27KG，联想品牌",
+      "store": "立诗文二手笔记本专营店",
+      "price": "2099.00",
+      "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/155630/23/5416/404076/5ffc04cfEbc86d5ac/f7262e9db3758544.png",
+      "collected": true,
+      "table": "lenovo",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f1deae70c653b8354be9"
+      },
+      "title": "拍拍 【二手9成新】小米（MI）二手全金属笔记本电脑 airpro12/13/15超薄便携商务办公学习本 AIR13 i5七代 8G 256G 2G独显",
+      "store": "宁美电竞二手电脑专营店",
+      "price": "2999.00",
+      "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/117904/40/14190/114102/5f2a9002E968e98f4/28b42720137f7721.jpg",
+      "collected": false,
+      "table": "milaptop",
+      "num": 1
+    }
+  ],
+  "collects": [
+    {
+      "_id": {
+        "$oid": "6042f1d2ae70c653b8354be3"
+      },
+      "title": "拍拍 【二手9成新】联想（Thinkpad）X230 12.5英寸ibm轻薄便携办公二手笔记本电脑 商务本 二 X230 I5 8G 128G固态+500G",
+      "store": "优比兔二手商品专营店",
+      "price": "1399.00",
+      "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/121501/13/19360/238148/5fb78cdaEc3760789/e18da37e29831308.jpg",
+      "collected": true,
+      "table": "lenovo",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f201ae70c653b8354c49"
+      },
+      "title": "拍拍 【二手9新】Samsung/三星 300E5M 300E5K 350XAA轻薄商务 游戏笔记本 I3五代 8G 128G 500g 2G卡",
+      "store": "志光二手商品专卖店",
+      "price": "1758.00",
+      "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/147238/38/14303/471162/5fad3188E3500c535/6d730c73060fc91d.jpg",
+      "collected": true,
+      "table": "sanlaptop",
+      "num": 1
+    }
+  ],
+  "history": [
+    {
+      "_id": {
+        "$oid": "6042f201ae70c653b8354c49"
+      },
+      "title": "拍拍 【二手9新】Samsung/三星 300E5M 300E5K 350XAA轻薄商务 游戏笔记本 I3五代 8G 128G 500g 2G卡",
+      "store": "志光二手商品专卖店",
+      "price": "1758.00",
+      "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/147238/38/14303/471162/5fad3188E3500c535/6d730c73060fc91d.jpg",
+      "collected": true,
+      "table": "sanlaptop",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f1deae70c653b8354be9"
+      },
+      "title": "拍拍 【二手9成新】小米（MI）二手全金属笔记本电脑 airpro12/13/15超薄便携商务办公学习本 AIR13 i5七代 8G 256G 2G独显",
+      "store": "宁美电竞二手电脑专营店",
+      "price": "2999.00",
+      "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/117904/40/14190/114102/5f2a9002E968e98f4/28b42720137f7721.jpg",
+      "collected": false,
+      "table": "milaptop",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "604f528378463620b02f4fc9"
+      },
+      "title": "拍拍 二手九九新现货 科学 工科数学分析教程 下册 杨小远 大学教材 大中专教辅 科学出版社",
+      "store": "浪淘沙二手书专营店",
+      "price": "96.50",
+      "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/127688/13/612/370285/5eb6809dEdacc4324/b3174d41c67fe1d6.jpg",
+      "collected": false,
+      "table": "college",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "604f528378463620b02f4fd2"
+      },
+      "title": "拍拍 二手书8成新 混凝土结构(上册)混凝土结构设计原理(第5版)",
+      "store": "百科知识二手书专营店",
+      "price": "5.00",
+      "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/168489/17/351/309051/5feebce5Eccc96633/fc8f9229bc74619d.jpg",
+      "collected": true,
+      "table": "college",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f1bbae70c653b8354bab"
+      },
+      "title": "拍拍 华为 HUAWEI P40（5G） 安卓智能 华为二手手机 大陆国行 亮黑色 8G+128G",
+      "store": "拍拍严选官方旗舰店",
+      "price": "3649.00",
+      "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/156401/22/12362/138658/603fab70Ed025e6eb/5a684e7cd2e4c12a.jpg",
+      "collected": true,
+      "table": "hwphone",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "604f528378463620b02f4fd0"
+      },
+      "title": "拍拍 二手书8成新 高等数学(第六版下册)同济大学数学系/9787040212778",
+      "store": "百科知识二手书专营店",
+      "price": "3.80",
+      "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/158110/27/1023/309669/5feebcdcE9fe30457/c6b83354d20e5d7b.jpg",
+      "collected": false,
+      "table": "college",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f1d2ae70c653b8354be4"
+      },
+      "title": "推荐理由：厚度0.8CM，重量1.27KG，联想品牌",
+      "store": "立诗文二手笔记本专营店",
+      "price": "2099.00",
+      "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/155630/23/5416/404076/5ffc04cfEbc86d5ac/f7262e9db3758544.png",
+      "collected": true,
+      "table": "lenovo",
+      "num": 1
+    }
+  ],
+  "pwd": "Zzheng123.",
+  "address": [
+    "湖北省 武汉市 江岸区 湖北大学知行学院 郑彩艺(收)  18114477190"
+  ]
+},{
+  "_id": {
+    "$oid": "605999031462ec0f24f803b0"
+  },
+  "username": "zheng",
+  "pwd": "Zzheng123.",
+  "shopCart": [
+    {
+      "_id": {
+        "$oid": "6040b0a2c08edf28a03dfe78"
+      },
+      "title": "【二手9成新】女装服饰短款修身西装上衣服装 二手奢侈品 女款 黑色 38码",
+      "price": "88.00",
+      "store": "林林衣二手专营店",
+      "goodsImg": "//img13.360buyimg.com/n7/jfs/t1/99864/4/19836/148176/5ea10575E30b1c68a/e18fcd2cb2986dfd.jpg",
+      "collected": false,
+      "table": "cloth",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f20bae70c653b8354c73"
+      },
+      "title": "拍拍 三星Galaxy Note20 Ultra 5G手机 二手手机 初露白 12G+256G",
+      "store": "拍拍严选官方旗舰店",
+      "price": "6339.00",
+      "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/165129/19/8654/489821/603fab70E4b2035ad/4b40c84f397bc5d3.png",
+      "collected": false,
+      "table": "sanphone",
+      "num": 1
+    }
+  ],
+  "collects": [
+    {
+      "_id": {
+        "$oid": "6042f1f6ae70c653b8354c3b"
+      },
+      "title": "拍拍 【二手9成新】【现货秒发】OPPO A5 全面屏拍照手机 全网通4G 双卡双待 幻镜蓝 6.2英寸 3G 64G",
+      "store": "悦粤二手商品专营店",
+      "price": "520.00",
+      "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/9739/12/1170/225050/5bcd3ab8E5f2f6bf4/ce78af44c283cccf.jpg",
+      "collected": true,
+      "table": "oppo",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f1a3ae70c653b8354b7d"
+      },
+      "title": "拍拍 【二手9成新】惠普（HP）745G3/840G3 14英寸 二手笔记本电脑 商务办公本 13】1040G3 i5 8G 256G固态轻薄 15天无理由退货",
+      "store": "优本二手电脑专营店",
+      "price": "2758.00",
+      "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/166739/15/8092/98068/6039fe3dE1b40cfa1/8f8928158422dfad.jpg",
+      "collected": true,
+      "table": "hp",
+      "num": 1
+    }
+  ],
+  "history": [
+    {
+      "_id": {
+        "$oid": "6042f1f6ae70c653b8354c3b"
+      },
+      "title": "拍拍 【二手9成新】【现货秒发】OPPO A5 全面屏拍照手机 全网通4G 双卡双待 幻镜蓝 6.2英寸 3G 64G",
+      "store": "悦粤二手商品专营店",
+      "price": "520.00",
+      "goodsImg": "https://img11.360buyimg.com/n7/jfs/t1/9739/12/1170/225050/5bcd3ab8E5f2f6bf4/ce78af44c283cccf.jpg",
+      "collected": false,
+      "table": "oppo",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "604f529d78463620b02f4ff0"
+      },
+      "title": "拍拍 二手书8成新 新视野大学英语视听说教程2(第3版) 郑树棠/9787513556828",
+      "store": "百科知识二手书专营店",
+      "price": "3.80",
+      "goodsImg": "https://img12.360buyimg.com/n7/jfs/t1/156749/12/3545/240618/5feebcd9Ebf4a543e/237f3773c0f64851.jpg",
+      "collected": false,
+      "table": "english",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6040b0a2c08edf28a03dfe78"
+      },
+      "title": "【二手9成新】女装服饰短款修身西装上衣服装 二手奢侈品 女款 黑色 38码",
+      "price": "88.00",
+      "store": "林林衣二手专营店",
+      "goodsImg": "//img13.360buyimg.com/n7/jfs/t1/99864/4/19836/148176/5ea10575E30b1c68a/e18fcd2cb2986dfd.jpg",
+      "collected": false,
+      "table": "cloth",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "60404edda4e3bc34dc8812aa"
+      },
+      "title": "[全新未使用] LOVE CAUTION 细管小金条口红哑光滋润不易掉色唇膏 小金条21#复古正红色",
+      "price": "289.00",
+      "store": "世裕通拍拍清仓专营店",
+      "goodsImg": "//img14.360buyimg.com/n7/jfs/t1/151423/19/20144/221055/6030d700E37288358/eaad1850a20ca08f.jpg",
+      "collected": false,
+      "table": "caizhuang",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f1a3ae70c653b8354b7d"
+      },
+      "title": "拍拍 【二手9成新】惠普（HP）745G3/840G3 14英寸 二手笔记本电脑 商务办公本 13】1040G3 i5 8G 256G固态轻薄 15天无理由退货",
+      "store": "优本二手电脑专营店",
+      "price": "2758.00",
+      "goodsImg": "https://img13.360buyimg.com/n7/jfs/t1/166739/15/8092/98068/6039fe3dE1b40cfa1/8f8928158422dfad.jpg",
+      "collected": false,
+      "table": "hp",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f1d2ae70c653b8354bcc"
+      },
+      "title": "拍拍 【二手9成新】Lenovo 联想笔记本电脑超轻薄便携学生商务办公设计拯救者游戏本独显高配 火爆抢购i5 2代4-128G固态1G集显办公设计",
+      "store": "优智数码二手商品专营店",
+      "price": "1388.00",
+      "goodsImg": "https://img14.360buyimg.com/n7/jfs/t1/166210/11/7690/60820/60379a89E969baac7/f66c018335f41929.jpg",
+      "collected": false,
+      "table": "lenovo",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "6042f20bae70c653b8354c73"
+      },
+      "title": "拍拍 三星Galaxy Note20 Ultra 5G手机 二手手机 初露白 12G+256G",
+      "store": "拍拍严选官方旗舰店",
+      "price": "6339.00",
+      "goodsImg": "https://img10.360buyimg.com/n7/jfs/t1/165129/19/8654/489821/603fab70E4b2035ad/4b40c84f397bc5d3.png",
+      "collected": false,
+      "table": "sanphone",
+      "num": 1
+    },
+    {
+      "_id": {
+        "$oid": "60404edda4e3bc34dc8812a7"
+      },
+      "title": "欧丽丝6色珠光大地色眼影盘裸妆钻石眼彩妆盒粉学生懒人网红款 #906浅金棕",
+      "price": "29.00",
+      "store": "萱之妍美妆护肤专营店",
+      "goodsImg": "//img12.360buyimg.com/n7/jfs/t1/151924/30/6927/67542/5fba32a4Ef74f94eb/235dc878484f68be.jpg",
+      "collected": false,
+      "table": "caizhuang",
+      "num": 1
+    }
+  ],
+  "address": [
+    "湖北省 武汉市 洪山区 花城大道 软件新城 郑彩艺(收) 18996265217"
+  ]
+}]
